@@ -1,0 +1,108 @@
+/* คอนเทนเนอร์หลัก */
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: #ffffff;
+  }
+  
+  /* Header */
+  .header {
+
+    width: 100%;
+    background-color: #1e1e1e;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Section */
+  .section {
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .card {
+    justify-content: flex-start;
+    display: flex;
+    gap: 50px;
+    align-items: center; /* จัดให้อยู่กลางแนวแกน Y */
+    justify-content: center; /* จัดให้อยู่กลางแนวแกน X */
+    background-color: white;
+    padding: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 50%; /* ปรับขนาดการ์ดให้เหมาะสม */
+    margin: auto; /* จัดให้อยู่กลางหน้า */
+    border-radius: 10px; /* เพิ่มความโค้งมน */
+  }
+  
+  .project {
+    flex-direction: column;
+ 
+    gap: 50px;
+    align-items: center; /* จัดให้อยู่กลางแนวแกน Y */
+    justify-content: center; /* จัดให้อยู่กลางแนวแกน X */
+    background-color: white;
+    padding: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 50%; /* ปรับขนาดการ์ดให้เหมาะสม */
+    margin: auto; /* จัดให้อยู่กลางหน้า */
+    border-radius: 10px; /* เพิ่มความโค้งมน */
+    }
+
+  .skills {
+    justify-content: flex-start;
+    display: flex;
+    gap: 200px;
+    align-items: center; /* จัดให้อยู่กลางแนวแกน Y */
+    justify-content: center; /* จัดให้อยู่กลางแนวแกน X */
+    background-color: white;
+    padding: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 50%; /* ปรับขนาดการ์ดให้เหมาะสม */
+    margin: auto; /* จัดให้อยู่กลางหน้า */
+    border-radius: 10px; /* เพิ่มความโค้งมน */
+  }
+
+  /* Picture */
+  .picture {
+    width: 400px; /* ตั้งขนาดรูปเล็ก */
+    height: 400px; /* ให้รูปเป็นสี่เหลี่ยมจัตุรัส */
+    background-color: #ccc;
+    flex-shrink: 0; /* ป้องกันการบีบรูปเมื่อขนาดหน้าต่างเปลี่ยน */
+  }
+
+  .projectImage {
+    flex: 1;
+    min-width: 300px;
+    height: 450px;
+    background-color: #ccc;
+  }
+  
+  .circlePicture {
+    gap: 100px;
+    justify-content: flex-start;
+    width: 400px; /* ขนาดของวงกลม */
+    height: 400px; /* ขนาดของวงกลม */
+    background-color: #ccc;
+    border-radius: 50%; /* ทำให้เป็นวงกลม */
+    flex-shrink: 0; /* ป้องกันไม่ให้ขนาดของวงกลมเล็กลง */
+  }
+
+  .text{
+    padding-left: 10px;
+  }
+
+  .textproj{
+    text-align: center;
+  }
