@@ -24,7 +24,7 @@ export default function Home() {
             />
           </div>
           <div>
-            <h2>HELLO!, I’M THAMONWAN </h2>
+            <h2>HELLO!, I’M THAMONWAN TONPHONG</h2>
             <p className={styles.text}>
             I’m truly excited and honored that you have taken an interest in my resume. It means a lot to me, and I am hopeful that in the future, there will be an opportunity for us to collaborate and work together. I believe that with our combined skills and expertise, we could accomplish great things and contribute to each other’s success.
             </p>
