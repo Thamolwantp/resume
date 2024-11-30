@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <h1>RESUME V1</h1>
+        <h1>RESUME</h1>
         <nav className={styles.nav}>
           <a href="#about">ABOUT ME</a>
           <a href="#skills">MY SKILLS</a>
