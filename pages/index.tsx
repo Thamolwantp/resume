@@ -24,7 +24,7 @@ export default function Home() {
             />
           </div>
           <div>
-            <h2>HELLO!, I’M THAMONWAN TONPHONG</h2>
+            <h2>HELLO!, I’M THAMONWAN</h2>
             <p className={styles.text}>
             I’m truly excited and honored that you have taken an interest in my resume. It means a lot to me, and I am hopeful that in the future, there will be an opportunity for us to collaborate and work together. I believe that with our combined skills and expertise, we could accomplish great things and contribute to each other’s success.
             </p>
@@ -83,7 +83,7 @@ export default function Home() {
           <Image
               src="/image/fig1.png"   // Path ที่ถูกต้อง
               alt="Description of Image"     // คำอธิบายของรูปภาพ
-              width={950}                    // ความกว้าง
+              width={770}                    // ความกว้าง
               height={450}                  // ความสูง
             />
           </div>
@@ -96,7 +96,7 @@ export default function Home() {
           <Image
               src="/image/fig2.png"   // Path ที่ถูกต้อง
               alt="Description of Image"     // คำอธิบายของรูปภาพ
-              width={950}                    // ความกว้าง
+              width={770}                    // ความกว้าง
               height={450}                  // ความสูง
             />
           </div>
